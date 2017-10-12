@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "01BE231412917D48565D9086C231228B86EDD761",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "01BE231412917D48565D9086C231228B86EDD761" : 9223372036854775807,
+    "21D94488C500C1AC8EBD0D22AEB618072B289AFA" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "49F4848F-7B21-4D53-B391-638DE81A0BD5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "01BE231412917D48565D9086C231228B86EDD761" : "JhtBannerScrollView\/",
+    "21D94488C500C1AC8EBD0D22AEB618072B289AFA" : "JhtVerificationCodeView\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "JhtBannerScrollView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "JhtBannerScrollView.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/jinhtzhaol\/jhtbannerscrollview.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "01BE231412917D48565D9086C231228B86EDD761"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/jinhtzhaol\/jhtverificationcodeview.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "21D94488C500C1AC8EBD0D22AEB618072B289AFA"
+    }
+  ]
+}
