@@ -1,7 +1,7 @@
 ## JhtBannerScrollView
 
 ### 先上图，看一下是否符合你的场景吧！
-<img src="https://raw.githubusercontent.com/jinht/BannerScrollView/master/ReadMEImages/1.gif" width=240 height=426 />
+<img src="https://raw.githubusercontent.com/jinht/BannerScrollView/master/ReadMEImages/Gif/1.gif" width=240 height=426 />
 
 ### Function Description
 1. 无限循环自动滚动卡片
