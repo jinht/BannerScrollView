@@ -37,9 +37,6 @@
 - (void)createUI {
     // 添加BannerScrollView
     [self addBannerScrollView];
-    
-    // 添加《Dismiss》按钮
-    [self addDismissButton];
 }
 
 
@@ -57,29 +54,11 @@
                        @"http://ovxyu3jv6.bkt.clouddn.com/JhtBannerScrollView/TestImage/02.jpg",
                        @"http://ovxyu3jv6.bkt.clouddn.com/JhtBannerScrollView/TestImage/03.jpg",
                        @"http://ovxyu3jv6.bkt.clouddn.com/JhtBannerScrollView/TestImage/04.jpg",
-                       @"http://ovxyu3jv6.bkt.clouddn.com/JhtBannerScrollView/TestImage/05.jpg",
-                       @"http://ovxyu3jv6.bkt.clouddn.com/JhtBannerScrollView/TestImage/06.jpg",
-                       @"http://ovxyu3jv6.bkt.clouddn.com/JhtBannerScrollView/TestImage/07.jpg"];
+                       @"http://ovxyu3jv6.bkt.clouddn.com/JhtBannerScrollView/TestImage/05.jpg"
+                       ];
     bannerView.placeholderImageName = @"placeholder";
     
     [bannerView setImageArray:array];
-}
-
-
-#pragma mark DismissButton
-/** 添加《Dismiss》按钮 */
-- (void)addDismissButton {
-    UIButton *backBtn = [[UIButton alloc] initWithFrame:CGRectMake(300, 400, 80, 30)];
-    [backBtn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
-    [backBtn setTitle:@"Dismiss" forState:UIControlStateNormal];
-    [backBtn addTarget:self action:@selector(backBtnClick) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:backBtn];
-}
-
-- (void)backBtnClick {
-    [self dismissViewControllerAnimated:YES completion:^{
-        
-    }];
 }
 
 

@@ -34,7 +34,7 @@ typedef NS_ENUM(NSUInteger, JhtBannerViewOrientation) {
  */
 @property (nonatomic, assign) JhtBannerViewOrientation orientation;
 
-/** 非当前页的透明比例（蒙板alpha）
+/** 非当前页的透明比例（蒙板View alpha）
  *	default：0.4
  */
 @property (nonatomic, assign) CGFloat minCoverViewAlpha;
