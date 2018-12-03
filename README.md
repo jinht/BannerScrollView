@@ -8,8 +8,6 @@
 2. 三段式循环滚动广告卡片
      
 ### how to use
-* 使用demo之前请先**pod install**
-
 #### 1. podfile 
 ```oc
 platform:ios, '8.0'
@@ -84,7 +82,7 @@ typedef NS_ENUM(NSUInteger, JhtBannerViewOrientation) {
 ```
 
 
-* 在demo中可以查看相关的使用和配置方法
+* 在demo中可以查看相关的使用和配置方法(使用demo之前请先**pod install**)
 
 
       
