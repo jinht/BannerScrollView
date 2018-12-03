@@ -17,5 +17,6 @@ DerivedData
 .idea/
 # Pods - for those of you who use CocoaPods
 Pods
+JhtBannerScrollView_SDK
 Podfile.lock
 *.xcworkspace

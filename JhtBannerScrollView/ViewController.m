@@ -50,11 +50,11 @@
     [self.view addSubview:bannerView];
     
     // 假数据
-    NSArray *array = @[@"http://ovxyu3jv6.bkt.clouddn.com/JhtBannerScrollView/TestImage/01.jpg",
-                       @"http://ovxyu3jv6.bkt.clouddn.com/JhtBannerScrollView/TestImage/02.jpg",
-                       @"http://ovxyu3jv6.bkt.clouddn.com/JhtBannerScrollView/TestImage/03.jpg",
-                       @"http://ovxyu3jv6.bkt.clouddn.com/JhtBannerScrollView/TestImage/04.jpg",
-                       @"http://ovxyu3jv6.bkt.clouddn.com/JhtBannerScrollView/TestImage/05.jpg"
+    NSArray *array = @[@"http://pj5lot1c7.bkt.clouddn.com/01.jpg",
+                       @"http://pj5lot1c7.bkt.clouddn.com/02.jpg",
+                       @"http://pj5lot1c7.bkt.clouddn.com/03.jpg",
+                       @"http://pj5lot1c7.bkt.clouddn.com/04.jpg",
+                       @"http://pj5lot1c7.bkt.clouddn.com/05.jpg"
                        ];
     bannerView.placeholderImageName = @"placeholder";
     
