@@ -8,9 +8,14 @@
 2. 三段式循环滚动广告卡片
      
 ### how to use
-* podfile **pod 'JhtBannerScrollView'**
+#### 1. podfile 
+```oc
+platform:ios, '8.0'
+pod 'JhtBannerScrollView', '~> 1.0.1'
+```
 
-#### 1. 相关参数配置简述：各属性均有其相应default value，使用时亦可根据自己需求进行相应修改
+
+#### 2. 相关参数配置简述：各属性均有其相应default value，使用时亦可根据自己需求进行相应修改
 ##### a. 滚动方向
 ```oc
 /** banner滚动方向 */
@@ -59,7 +64,7 @@ typedef NS_ENUM(NSUInteger, JhtBannerViewOrientation) {
 ```
 
 
-#### 2. Public Method：可根据自己需求使用相应Method
+#### 3. Public Method：可根据自己需求使用相应Method
 ```oc
 /** 刷新视图 */
 - (void)reloadData;
