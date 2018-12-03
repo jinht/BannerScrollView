@@ -82,7 +82,7 @@ typedef NS_ENUM(NSUInteger, JhtBannerViewOrientation) {
 ```
 
 
-* 在demo中可以查看相关的使用和配置方法(使用demo之前请先**pod install**)
+* 在demo中可以查看相关的使用和配置方法（使用demo之前请先 **pod install** ）
 
 
       
