@@ -8,6 +8,8 @@
 2. 三段式循环滚动广告卡片
      
 ### how to use
+* 使用demo之前请先**pod install**
+
 #### 1. podfile 
 ```oc
 platform:ios, '8.0'
