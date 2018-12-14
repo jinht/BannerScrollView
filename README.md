@@ -11,7 +11,12 @@
 #### 1. podfile 
 ```oc
 platform:ios, '8.0'
-pod 'JhtBannerScrollView', '~> 1.0.1'
+
+target '*****' do
+
+pod 'JhtBannerScrollView', '~> 1.0.2'
+
+end
 ```
 
 
