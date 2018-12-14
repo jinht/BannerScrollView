@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
     
     s.name                       = 'JhtBannerScrollView'
-    s.version                    = '1.0.2'
+    s.version                    = '1.0.3'
     s.summary                    = 'banner/广告页/循环滚动广告图片/无限循环自动滚动卡片'
     s.homepage                   = 'https://github.com/jinht/BannerScrollView'
     s.license                    = { :type => 'MIT', :file => 'LICENSE' }
