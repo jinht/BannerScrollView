@@ -14,7 +14,7 @@ platform:ios, '8.0'
 
 target '*****' do
 
-pod 'JhtBannerScrollView', '~> 1.0.3'
+pod 'JhtBannerScrollView'
 
 end
 ```
