@@ -12,13 +12,8 @@
 #import "ViewController.h"
 #import "JhtBannerView.h"
 
-/** 375的比例尺 */
+#define FrameW [UIScreen mainScreen].bounds.size.width
 #define WidthScale375 (([[UIScreen mainScreen] bounds].size.width) / 375)
-
-@interface ViewController () 
-
-@end
-
 
 @implementation ViewController
 
@@ -26,10 +21,11 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
+    self.title = @"JhtBannerScrollView";
+    
     // 创建UI界面
     [self createUI];
 }
-
 
 
 #pragma mark - UI
@@ -37,37 +33,48 @@
 - (void)createUI {
     // 添加BannerScrollView
     [self addBannerScrollView];
+    
+    // 添加《Dismiss》按钮
+    [self addDismissButton];
 }
-
 
 #pragma mark BannerScrollView
 /** 添加BannerScrollView */
 - (void)addBannerScrollView {
     JhtBannerView *bannerView = [[JhtBannerView alloc] initWithFrame:CGRectMake(0, 100, CGRectGetWidth(self.view.frame), 380 / 2.0 * WidthScale375)];
     [bannerView clickScrollViewInsideCardView:^(NSInteger index) {
-        NSLog(@"点击第%ld张卡片啦！", index);
+        NSLog(@"点击第%ld张卡片啦！", (long)index);
     }];
     [self.view addSubview:bannerView];
     
     // 假数据
-    NSArray *array = @[@"http://pj5lot1c7.bkt.clouddn.com/01.jpg",
-                       @"http://pj5lot1c7.bkt.clouddn.com/02.jpg",
-                       @"http://pj5lot1c7.bkt.clouddn.com/03.jpg",
-                       @"http://pj5lot1c7.bkt.clouddn.com/04.jpg",
-                       @"http://pj5lot1c7.bkt.clouddn.com/05.jpg"
+    NSArray *array = @[@"image_1",
+                       @"image_2",
+                       @"image_3",
+                       @"image_4",
+                       @"image_5"
                        ];
     bannerView.placeholderImageName = @"placeholder";
     
     [bannerView setImageArray:array];
 }
 
+#pragma mark DismissButton
+/** 添加《Dismiss》按钮 */
+- (void)addDismissButton {
+    CGFloat backBtnW = 80.0;
+    UIButton *backBtn = [[UIButton alloc] initWithFrame:CGRectMake(FrameW - backBtnW - 10, 330, backBtnW, 30)];
+    
+    [backBtn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    [backBtn setTitle:@"Dismiss" forState:UIControlStateNormal];
+    [backBtn addTarget:self action:@selector(backBtnClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:backBtn];
+}
 
-
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)backBtnClick {
+    [self dismissViewControllerAnimated:YES completion:^{
+        
+    }];
 }
 
 

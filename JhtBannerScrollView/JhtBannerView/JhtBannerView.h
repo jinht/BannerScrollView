@@ -16,19 +16,19 @@
 
 #pragma mark - property
 #pragma mark required
-/** 图片数组 */
-@property (nonatomic, strong) NSArray *imageArray;
-
+/** 图片数组
+ *  tips: [imageStr containsString:@"http"] ? 网络图片 : 本地图片（不会使用placeholderImageName作为占位图）
+ */
+@property (nonatomic, strong) NSArray<NSString *> *imageArray;
 
 #pragma mark optional
 /** 占位图片名（本地） */
 @property (nonatomic, strong) NSString *placeholderImageName;
 
 
-
 #pragma mark - Public Method
-/** 点击内部卡片View回调的Block
- *  index：在内容数组里的索引
+/** 点击内部卡片View回调
+ *  index: 在内容数组里的索引
  */
 typedef void(^clickInsideCardView)(NSInteger index);
 /** 点击ScrollView内部卡片 */

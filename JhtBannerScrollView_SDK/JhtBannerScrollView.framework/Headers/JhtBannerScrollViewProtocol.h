@@ -18,26 +18,24 @@
 #pragma mark - JhtBannerScrollViewDelegate
 @protocol JhtBannerScrollViewDelegate <NSObject>
 @optional
-/** 当前显示cardView的Size */
+/** 当前显示cardView Size */
 - (CGSize)sizeForCurrentCardViewInBannerView:(JhtBannerScrollView *)bannerView;
 
 /** 滚动到了某一个cardView */
 - (void)bannerView:(JhtBannerScrollView *)bannerView didScrollToCardViewWithIndex:(NSInteger)index;
 
 /** 点击了第几个cardView
- *  bannerCardView：点击cardView
- *  index：点击bannerCardView的index
+ *  index: 点击bannerCardView index
  */
 - (void)bannerView:(JhtBannerScrollView *)bannerView didSelectCardView:(UIView *)cardView withCardViewIndex:(NSInteger)index;
 
 @end
 
 
-
 #pragma mark - JhtBannerScrollViewDataSource
 @protocol JhtBannerScrollViewDataSource <NSObject>
 @required
-/** 显示cardView的个数 */
+/** 显示cardView 个数 */
 - (NSInteger)numberOfCardViewInBannerView:(JhtBannerScrollView *)bannerView;
 
 /** 单个cardView */

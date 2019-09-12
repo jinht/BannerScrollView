@@ -17,7 +17,7 @@
 #pragma mark - property
 /** 图片 */
 @property (nonatomic, strong) UIImageView *cardImageView;
-/** 覆盖在cardImageView上的view（蒙板） */
+/** 蒙板 View（覆盖在cardImageView上） */
 @property (nonatomic, strong) UIView *coverView;
 
 
