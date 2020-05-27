@@ -10,7 +10,6 @@ Pod::Spec.new do |s|
     s.platform                   = :ios
     s.ios.deployment_target      = '8.0'
     s.source                     = { :git => 'https://github.com/jinht/BannerScrollView.git', :tag => s.version }
-    s.ios.vendored_frameworks    = 'JhtBannerScrollView_SDK/JhtBannerScrollView.framework'
     s.frameworks                 = 'UIKit'
     s.dependency		 'SDWebImage'
 
