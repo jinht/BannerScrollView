@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:../JhtBannerScrollView_SDK/JhtBannerCardView"
+      name = "JhtBannerCardView">
+      <FileRef
+         location = "group:JhtBannerCardView.h">
+      </FileRef>
+      <FileRef
+         location = "group:JhtBannerCardView.m">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:../JhtBannerScrollView_SDK/JhtBannerScrollView"
+      name = "JhtBannerScrollView">
+      <FileRef
+         location = "group:JhtBannerScrollView.m">
+      </FileRef>
+      <FileRef
+         location = "group:JhtBannerScrollViewProtocol.h">
+      </FileRef>
+      <FileRef
+         location = "group:JhtBannerScrollView.h">
+      </FileRef>
+   </Group>
    <FileRef
-      location = "self:JhtBannerScrollView.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>

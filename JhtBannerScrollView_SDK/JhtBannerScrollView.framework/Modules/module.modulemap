@@ -1,6 +1,0 @@
-framework module JhtBannerScrollView {
-  umbrella header "JhtBannerScrollView.h"
-
-  export *
-  module * { export * }
-}

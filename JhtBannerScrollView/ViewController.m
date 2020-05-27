@@ -21,24 +21,11 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
-    self.title = @"JhtBannerScrollView";
-    
-    // 创建UI界面
-    [self createUI];
+    [self addBannerScrollView];
 }
 
 
 #pragma mark - UI
-/** 创建UI界面 */
-- (void)createUI {
-    // 添加BannerScrollView
-    [self addBannerScrollView];
-    
-    // 添加《Dismiss》按钮
-    [self addDismissButton];
-}
-
-#pragma mark BannerScrollView
 /** 添加BannerScrollView */
 - (void)addBannerScrollView {
     JhtBannerView *bannerView = [[JhtBannerView alloc] initWithFrame:CGRectMake(0, 100, CGRectGetWidth(self.view.frame), 380 / 2.0 * WidthScale375)];
@@ -57,24 +44,6 @@
     bannerView.placeholderImageName = @"placeholder";
     
     [bannerView setImageArray:array];
-}
-
-#pragma mark DismissButton
-/** 添加《Dismiss》按钮 */
-- (void)addDismissButton {
-    CGFloat backBtnW = 80.0;
-    UIButton *backBtn = [[UIButton alloc] initWithFrame:CGRectMake(FrameW - backBtnW - 10, 330, backBtnW, 30)];
-    
-    [backBtn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
-    [backBtn setTitle:@"Dismiss" forState:UIControlStateNormal];
-    [backBtn addTarget:self action:@selector(backBtnClick) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:backBtn];
-}
-
-- (void)backBtnClick {
-    [self dismissViewControllerAnimated:YES completion:^{
-        
-    }];
 }
 
 

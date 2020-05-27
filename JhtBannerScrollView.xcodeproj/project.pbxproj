@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8E6354FE21C341F0002859E4 /* JhtBannerScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6354FD21C341F0002859E4 /* JhtBannerScrollView.framework */; };
 		8E63553621C34308002859E4 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E63550821C34308002859E4 /* SDWebImageManager.m */; };
 		8E63553721C34308002859E4 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E63550A21C34308002859E4 /* UIImageView+HighlightedWebCache.m */; };
 		8E63553821C34308002859E4 /* SDWebImageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E63550B21C34308002859E4 /* SDWebImageFrame.m */; };
@@ -34,6 +33,8 @@
 		8E63554D21C34309002859E4 /* UIView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E63552E21C34308002859E4 /* UIView+WebCache.m */; };
 		8E63554E21C34309002859E4 /* SDWebImageImageIOCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E63553021C34308002859E4 /* SDWebImageImageIOCoder.m */; };
 		8E63554F21C34309002859E4 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E63553421C34308002859E4 /* UIButton+WebCache.m */; };
+		8E87D3CE247DF48100FE99DC /* JhtBannerCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E87D3C9247DF48100FE99DC /* JhtBannerCardView.m */; };
+		8E87D3CF247DF48100FE99DC /* JhtBannerScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E87D3CB247DF48100FE99DC /* JhtBannerScrollView.m */; };
 		8EFE0CB91EE0FFA8001F611A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFE0CB81EE0FFA8001F611A /* main.m */; };
 		8EFE0CBC1EE0FFA8001F611A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFE0CBB1EE0FFA8001F611A /* AppDelegate.m */; };
 		8EFE0CBF1EE0FFA8001F611A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFE0CBE1EE0FFA8001F611A /* ViewController.m */; };
@@ -61,7 +62,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8E6354FD21C341F0002859E4 /* JhtBannerScrollView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JhtBannerScrollView.framework; sourceTree = "<group>"; };
 		8E63550121C34308002859E4 /* SDAnimatedImageRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAnimatedImageRep.h; sourceTree = "<group>"; };
 		8E63550221C34308002859E4 /* NSButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSButton+WebCache.h"; sourceTree = "<group>"; };
 		8E63550321C34308002859E4 /* SDWebImageCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCoder.h; sourceTree = "<group>"; };
@@ -115,6 +115,11 @@
 		8E63553321C34308002859E4 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
 		8E63553421C34308002859E4 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
 		8E63553521C34308002859E4 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		8E87D3C8247DF48100FE99DC /* JhtBannerCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JhtBannerCardView.h; sourceTree = "<group>"; };
+		8E87D3C9247DF48100FE99DC /* JhtBannerCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JhtBannerCardView.m; sourceTree = "<group>"; };
+		8E87D3CB247DF48100FE99DC /* JhtBannerScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JhtBannerScrollView.m; sourceTree = "<group>"; };
+		8E87D3CC247DF48100FE99DC /* JhtBannerScrollViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JhtBannerScrollViewProtocol.h; sourceTree = "<group>"; };
+		8E87D3CD247DF48100FE99DC /* JhtBannerScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JhtBannerScrollView.h; sourceTree = "<group>"; };
 		8EFE0CB41EE0FFA8001F611A /* JhtBannerScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JhtBannerScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EFE0CB81EE0FFA8001F611A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8EFE0CBA1EE0FFA8001F611A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -136,7 +141,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E6354FE21C341F0002859E4 /* JhtBannerScrollView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,7 +164,8 @@
 		8E6354FC21C341F0002859E4 /* JhtBannerScrollView_SDK */ = {
 			isa = PBXGroup;
 			children = (
-				8E6354FD21C341F0002859E4 /* JhtBannerScrollView.framework */,
+				8E87D3CA247DF48100FE99DC /* JhtBannerScrollView */,
+				8E87D3C7247DF48100FE99DC /* JhtBannerCardView */,
 			);
 			path = JhtBannerScrollView_SDK;
 			sourceTree = "<group>";
@@ -231,6 +236,25 @@
 				8E63553521C34308002859E4 /* UIImage+GIF.h */,
 			);
 			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		8E87D3C7247DF48100FE99DC /* JhtBannerCardView */ = {
+			isa = PBXGroup;
+			children = (
+				8E87D3C8247DF48100FE99DC /* JhtBannerCardView.h */,
+				8E87D3C9247DF48100FE99DC /* JhtBannerCardView.m */,
+			);
+			path = JhtBannerCardView;
+			sourceTree = "<group>";
+		};
+		8E87D3CA247DF48100FE99DC /* JhtBannerScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				8E87D3CD247DF48100FE99DC /* JhtBannerScrollView.h */,
+				8E87D3CB247DF48100FE99DC /* JhtBannerScrollView.m */,
+				8E87D3CC247DF48100FE99DC /* JhtBannerScrollViewProtocol.h */,
+			);
+			path = JhtBannerScrollView;
 			sourceTree = "<group>";
 		};
 		8EFE0CAB1EE0FFA8001F611A = {
@@ -431,6 +455,7 @@
 				8E63553721C34308002859E4 /* UIImageView+HighlightedWebCache.m in Sources */,
 				8E63553821C34308002859E4 /* SDWebImageFrame.m in Sources */,
 				8EFE0CBF1EE0FFA8001F611A /* ViewController.m in Sources */,
+				8E87D3CE247DF48100FE99DC /* JhtBannerCardView.m in Sources */,
 				8E63554F21C34309002859E4 /* UIButton+WebCache.m in Sources */,
 				8E63554A21C34309002859E4 /* SDWebImageGIFCoder.m in Sources */,
 				8E63553D21C34308002859E4 /* UIImage+MultiFormat.m in Sources */,
@@ -445,6 +470,7 @@
 				8E63554921C34309002859E4 /* NSImage+WebCache.m in Sources */,
 				8E63554C21C34309002859E4 /* UIView+WebCacheOperation.m in Sources */,
 				8E63553621C34308002859E4 /* SDWebImageManager.m in Sources */,
+				8E87D3CF247DF48100FE99DC /* JhtBannerScrollView.m in Sources */,
 				8EFE0CBC1EE0FFA8001F611A /* AppDelegate.m in Sources */,
 				8E63554321C34309002859E4 /* SDAnimatedImageRep.m in Sources */,
 				8E63554421C34309002859E4 /* SDImageCache.m in Sources */,

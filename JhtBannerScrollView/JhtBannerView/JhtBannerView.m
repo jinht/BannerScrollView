@@ -10,19 +10,15 @@
 //
 
 #import "JhtBannerView.h"
+#import "JhtBannerScrollView.h"
 #import "UIImageView+WebCache.h"
-#import <JhtBannerScrollView/JhtBannerScrollView.h>
 
-/** 单个卡片宽度 */
 #define KBavCardViewWidth (480 / 2.0 * WidthScale375)
-/** 单个卡片高度 */
 #define KBavCardViewHeight (280 / 2.0 * WidthScale375)
 
 @interface JhtBannerView () <JhtBannerScrollViewDelegate, JhtBannerScrollViewDataSource> {
-    // 点击内部卡片View回调的Block
     clickInsideCardView _block;
 }
-/** banner view（整条view） */
 @property (nonatomic, strong) JhtBannerScrollView *bannerView;
 
 @end
@@ -76,7 +72,6 @@
     
     [_bannerView reloadData];
     
-    // 添加pageControl
     [self bavAddPageControl];
 }
 

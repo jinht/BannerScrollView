@@ -15,7 +15,6 @@
 
 @class JhtBannerScrollView;
 
-/** 375 比例尺 */
 #define WidthScale375 (([[UIScreen mainScreen] bounds].size.width) / 375)
 
 /** banner view（整条view） */
